@@ -169,7 +169,7 @@ function reduce(state, {type , payload , overwrite}){
 
 function removeDigits(oparant){
   if(oparant.trim){
-      return oparant.slice(0 , length - 1)
+      return oparant.slice(0 , oparant.length - 1)
   }
   return oparant
 }
